@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/app.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,400,500,600&display=swap" rel="stylesheet">
+
+  <title>Register</title>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <div class="container">
+        <a class="navbar-brand" style="font-size: 1.5rem;" href="index.html">
+            <img src="assets/logo.svg" class="logo" alt="">&nbsp;&nbsp;&nbsp; <span>Konanki Homes</span>
+          </a>
+        <ul class="navbar-nav ml-auto">
+           <li class="nav-item mr-3">
+            <a class="nav-link" href="index.html"> HOME</a>
+          </li>
+            <li class="nav-item active mr-3">
+              <a class="nav-link" href="register.html"> REGISTER</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link" href="login.html"> LOGIN</a>
+            </li>
+          </ul>
+    </div>
+  </nav>
+
+  <form  action="tenconnect.php" method="post">
+  <section id="register" class="bg-light py-5">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-6 my-auto">
+              <h1 style="font-weight:100; margin-left:30%;">JOIN US</h1>
+              <hr>
+              <img src="assets/register.svg" style="width: 300px; margin-left:15%;" alt="">
+            </div>
+            <div class="col-md-6 mx-auto">
+              <div class="card">
+            <div class="card-header bg-primary text-white">
+              
+
+                <form>
+
+<h3 ><center>REGISTER</center></h3>
+<hr>
+<input type="tname" id="tname" name="tname" class="form-control" placeholder="username"><br>
+<input type="password" id="password" name="tpass" class="form-control"placeholder="password"><br>
+<input type="occupation" id="occupation" class="form-control" placeholder="occupation" name="occupation"></textarea><br>
+<input type="phno" id="phno" name="phno" class="form-control" placeholder="phone number"><br>
+<input type="email" id="email" name="tmail" class="form-control"placeholder="email">
+
+<br>
+               
+              <center> <input type="submit" class="btn btn-success btn-block" name="register" value="Register" ></center>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="assets/js/jquery-3.3.1.min.js "></script>
+  <script src="assets/js/bootstrap.bundle.min.js "></script>
+  <script src="assets/js/main.js "></script>
+</body>
+
+</html>
+
+
+

@@ -1,0 +1,30 @@
+  body, html {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100%;
+      margin: 0;
+    }
+
+    /*navbar logo size*/
+    .logo {
+      width: 50px; 
+    }
+
+    /*button text color*/
+    .btn {
+      color: white;
+    }
+
+    /*owner.html page container styling*/
+    #details {
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 10px ;
+    }
+
+    /*login and registration form shadow effect*/
+    .card {
+      box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3), 0 50px 60px 0 rgba(0, 0, 0, 0.3);
+    }
+

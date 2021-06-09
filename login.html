@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/app.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,400,500,600&display=swap" rel="stylesheet">
+
+  <title>Login</title>
+</head>
+<style>
+
+    body, html {
+      background-image: url("assets/img/img5.jpg");
+    }
+    
+</style>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <div class="container">
+      <a class="navbar-brand" style="font-size: 1.5rem;" href="index.html">
+        <img src="assets/logo.svg" class="logo" alt="">&nbsp;&nbsp;&nbsp; <span>Konanki Homes</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav ml-auto">
+           <li class="nav-item mr-3">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item mr-3">
+            <a class="nav-link" href="register.html"> REGISTER</a>
+          </li>
+          <li class="nav-item active mr-3">
+            <a class="nav-link" href="login.html"> LOGIN</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="login" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6"></div>
+        <div class="col-md-6 mx-auto">
+          <div class="card">
+            <div class="card-header bg-primary text-white">
+              <h4> Owner Login</h4>
+            </div>
+            <div class="card-body">
+              <form  action="connect.php" method="post">
+                <div class="form-group">
+                  <label for="email1">Email</label>
+                  <input type="email" name="lmail" id="email1"  class="form-control" placeholder="email" required="">
+                </div>
+                <hr>
+                <div class="form-group">
+                  <label for="password1">Password</label>
+                  <input type="password" name="lpass" id="password1" class="form-control" placeholder="password" required="">
+                </div>
+                <hr>
+               <div class="form-group last">
+                            <button type="submit" name='login' class="btn btn-success btn-block">
+                                 LOGIN</button>
+                        </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="assets/js/jquery-3.3.1.min.js "></script>
+  <script src="assets/js/bootstrap.bundle.min.js "></script>
+  <script src="assets/js/main.js "></script>
+</body>
+
+</html>
